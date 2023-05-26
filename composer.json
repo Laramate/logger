@@ -1,0 +1,20 @@
+{
+    "name": "pretzels-dev/logger",
+    "description": "Automated logging to your configured channels or to the console, depending on the environment.",
+    "require": {
+        "illuminate/support": "^10.12",
+        "symfony/console": "^6.2",
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pretzels\\Logger\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Chris Wolf",
+            "email": "chris.wolf@pretzels.dev"
+        }
+    ]
+}
