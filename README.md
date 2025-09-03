@@ -10,7 +10,7 @@ In both scenarios, you would like to have proper output, either through the conf
 Logger will handle it for you:
 
 ```php
-use Pretzels\Logger\Logger;
+use Laramate\Logger\Logger;
 
 Logger::info('Salz!');
 ```
@@ -24,7 +24,7 @@ Feel free to contribute to this package.
 
 ## Security
 
-If you've found a bug regarding security please mail [mail@pretzels.dev](mail@pretzels.dev) instead of using the issue tracker.
+If you've found a bug regarding security please mail [coding@laramate.de](coding@laramate.de) instead of using the issue tracker.
 
 ## License
 
