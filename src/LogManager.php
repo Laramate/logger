@@ -184,7 +184,7 @@ class LogManager
     }
 
     /**
-     * Log a warning message.
+     * Log a debug message.
      *
      * @param string $message
      * @param array|null $context
@@ -193,7 +193,7 @@ class LogManager
      */
     public function debug(string $message, ?array $context = null, ?Throwable $error = null): static
     {
-        return $this->log(static::$warning, $message, $context, $error);
+        return $this->log(static::$debug, $message, $context, $error);
     }
 
     /**
