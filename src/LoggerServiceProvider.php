@@ -23,6 +23,8 @@ class LoggerServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->singleton(LogManager::class, function ($app) {
+            return new LogManager();
+        });
     }
 }
