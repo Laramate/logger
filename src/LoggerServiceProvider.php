@@ -1,6 +1,6 @@
 <?php
 
-namespace Pretzels\Logger;
+namespace Laramate\Logger;
 
 use Illuminate\Support\ServiceProvider;
 
