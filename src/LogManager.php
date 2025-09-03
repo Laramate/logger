@@ -107,6 +107,8 @@ class LogManager
      */
     protected function logOnChannel(string $type, string $message, ?array $context = null): void
     {
+        $context = $context ?? [];
+        
         if (!empty($this->channel)) {
             Log::channel($this->channel)->$type($message, $context);
         } else {
