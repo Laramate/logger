@@ -6,10 +6,13 @@ use Illuminate\Support\Facades\Facade;
 use Throwable;
 
 /**
- * @method static info(string $message, ?Throwable $error = null)
- * @method static warning(string $message, ?Throwable $error = null)
- * @method static error(string $message, ?Throwable $error = null)
- * @method static channel(string $string)
+ * @method static info(string $message, ?array $context = null, ?Throwable $error = null)
+ * @method static debug(string $message, ?array $context = null, ?Throwable $error = null)
+ * @method static warning(string $message, ?array $context = null, ?Throwable $error = null)
+ * @method static error(string $message, ?array $context = null, ?Throwable $error = null)
+ * @method static channel(?string $channel = null)
+ * @method static consoleOnly()
+ * @method static channelOnly()
  */
 class Logger extends Facade
 {
